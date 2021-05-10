@@ -11,7 +11,7 @@ namespace ExcelDataRetriever
         static void Main(string[] args)
         {
             Dictionary<string, DataTable> Sheets;
-            Sheets = RetrieveDataFromXlsxFile(@"C:\Users\miche\Downloads\Sample_Employee_data_xlsx");
+            Sheets = RetrieveDataFromXlsxFile("put_your_xlsx_filepath_here");
         }
 
         public static Dictionary<string, DataTable> RetrieveDataFromXlsxFile(string filePath)
